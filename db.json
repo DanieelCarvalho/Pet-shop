@@ -1,0 +1,224 @@
+{ 
+  "products": [
+    {
+      "id": 1,
+      "categoriesId":1,
+      "categories2": "ração",
+      "title": "Ração Seca PremieR Pet Golden Formula Carne e Arroz para Cães Adultos de Raças Pequenas",
+      "description1": "Saúde oral: auxilia a redução da formação do tártaro;",
+      "description2": "Pele nutrida e pelagem sedosa: equilíbrio de ômegas e minerais;",
+      "description3": "Redução do odor das fezes: seleção de ingredientes especiais que auxiliam na redução do odor das fezes;",
+      "price": 160,
+      "img": "https://www.petlove.com.br/images/products/261729/product/Ra%C3%A7%C3%A3o_Seca_PremieR_Pet_Golden_Formula_Carne_e_Arroz_para_C%C3%A3es_Adultos_de_Ra%C3%A7as_Pequenas_-_3_Kg_3108193-2.jpg?1662040911"
+    },
+    {
+      "id": 2,
+      "categoriesId":1,
+      "categories2": "ração",
+      "title": "Ração Seca PremieR Pet Golden Special Cães Adultos Frango e Carne",
+      "description1": "Blend de proteínas: máxima satisfação para o paladar;",
+      "description2": "Maior rendimento: ingredientes de alto aproveitamento;",
+      "description3": "Saúde e vitalidade: alimento de alta qualidade, rico em vitaminas e minerais;",
+      "price": 170,
+      "img": "https://www.petlove.com.br/images/products/261662/product/Ra%C3%A7%C3%A3o_Seca_PremieR_Pet_Golden_Special_C%C3%A3es_Adultos_Frango_e_Carne_-_20_Kg_31014070-2_3.jpg?1662031878"
+    },
+    {
+      "id": 3,
+      "categoriesId":1,
+      "categories2": "ração",
+      "title": "Ração Seca PremieR Pet Golden Power Training Cães Filhotes Frango e Arroz - 15 Kg",
+      "description1": "Saúde oral: auxilia a redução da formação do tártaro",
+      "description2": "Redução do odor das fezes: seleção de ingredientes especiais que auxiliam na redução do odor das fezes;",
+      "description3": "Proteção articular: possui condroitina e glicosamina, que contribuem para manutenção da saúde das articulações;",
+      "price": 150,
+      "img": "https://www.petlove.com.br/images/products/261625/product/Ra%C3%A7%C3%A3o_Seca_PremieR_Pet_Golden_Power_Training_C%C3%A3es_Filhotes_Frango_e_Arroz_-_15_Kg_3108210.jpg?1662029934"
+    },
+    {
+      "id": 4,
+      "categoriesId":1,
+      "categories2": "ração",
+      "title": "Ração Royal Canin Canine Veterinary Diet Hypoallergenic para Cães Adultos com Alergias",
+      "description1": "Ração seca terapêutica super premium",
+      "description2": "Indicada para cães com alergias alimentares e manifestações dermatológicas;",
+      "description3": "Doença inflamatória crônica do intestino.",
+      "price": 480,
+      "img": "https://www.petlove.com.br/images/products/232944/product/Ra%C3%A7%C3%A3o_Royal_Canin_Canine_Veterinary_Diet_Hypoallergenic_para_C%C3%A3es_Adultos_com_Alergias_3105636.jpg?1627747084"
+    },
+    {
+      "id": 5,
+      "categoriesId":1,
+      "categories2": "ração",
+      "title": "Ração Royal Canin Maxi Puppy para Cães Filhotes de Raças Grandes de 2 a 15 Meses de Idade",
+      "description1": "Com transgênico;",
+      "description2": "Ração super premium indicada para cães filhote de porte grande de 2 a 15 meses de idade.",
+      "description3": "Equilíbrio da flora intestinal: Contribuem para promover uma flora intestinal equilibrada e auxilia no suporte ao trato digestão",
+      "price": 380,
+      "img": "https://www.petlove.com.br/images/products/262705/product/Ra%C3%A7%C3%A3o_Royal_Canin_Maxi_Puppy_para_C%C3%A3es_Filhotes_de_Ra%C3%A7as_Grandes_de_2_a_15_Meses_de_Idade_2378560_%282%29.png?1663868533"
+    },
+    {
+      "id": 6,
+      "categoriesId":2,
+      "categories2": "guias",
+      "title": "Guia Red Mosquetão Giratório São Pet Azul 100 cm x 0.7 cm",
+      "description1": "Fácil de colocar",
+      "description2": "Indicado para cães;",
+      "description3": "Facilita o controle do cão durante o passeio.",
+      "price": 16,
+      "img": "https://cobasi.vteximg.com.br/arquivos/ids/815062-400-400/Guia-Red-Mosquetao-Giratorio-Sao-Pet-Azul.jpg?v=637660965605630000"
+    },
+    {
+      "id": 7,
+      "categoriesId":2,
+      "categories2": "guias",
+      "title": "Guia de Adestramento Furacão Pet Preto",
+      "description1": "Guia para passeios e adestramentos;",
+      "description2": "Acabamento reforçado;",
+      "description3": "Indicado para longos passeios com seu amigo pet.",
+      "price": 22,
+      "img": "https://www.petlove.com.br/images/products/150366/product/3100937-4.jpg?1627533264"
+    },
+    {
+      "id": 8,
+      "categoriesId":2,
+      "categories2": "guias",
+      "title": "Coleira de Obediência Toh Outdoor Black",
+      "description1": "Acabamento de alto nível;",
+      "description2": "Acabamento de alto nível;",
+      "description3": "Confeccionada com estampa exclusiva, atóxica;",
+      "price": 16,
+      "img": "https://www.petlove.com.br/images/products/224365/product/Coleira_de_Obedi%C3%AAncia_Toh_Outdoor_Black_2500785_2.jpg?1627719287"
+    },
+    {
+      "id": 9,
+      "categoriesId":2,
+      "categories2": "guias",
+      "title": "Coleira e Guia Toh Outdoor Black",
+      "description1": "Costuras reforçadas;",
+      "description2": "De fácil adaptação, atóxico;",
+      "description3": "Maior segurança e resistência;",
+      "price": 30,
+      "img": "https://www.petlove.com.br/images/products/215365/product/Coleira_e_Guia_Toh_Outdoor_para_C%C3%A3es_Black_2425789_3.jpg?1627691642"
+    },
+    {
+      "id": 10,
+      "categoriesId":2,
+      "categories2": "guias",
+      "title": "Guia Retrátil Runner Emborrachada Preta para Cães",
+      "description1": "Design bonito;",
+      "description2": "Fecho em metal: resistente a puxões;",
+      "description3": "Fita de poliéster flexível: de alta tenacidade",
+      "price": 40,
+      "img": "https://www.petlove.com.br/images/products/234386/product/Guia_Retr%C3%A1til_Runner_Emborrachada_Preta_para_C%C3%A3es_2635091_1.jpg?1627751928"
+    },
+    {
+      "id": 11,
+      "categoriesId":3,
+      "categories2": "medicamento",
+      "title": "Antipulgas Elanco Capstar 57 mg para Cães acima de 11,4 Kg",
+      "description1": "Indicado para controle de pulgas adultas e tratamento de miíase (bicheira);",
+      "description2": "Pulicida oral para cães com mais de 04 semanas de idade;",
+      "description3": "Pode ser usado em fêmeas gestantes e lactantes;",
+      "price": 22,
+      "img": "https://www.petlove.com.br/images/products/228040/product/Antipulgas_Novartis_Capstar_57_mg_para_C%C3%A3es_acima_de_11_4_Kg_1649364.jpg?1627728997"
+    },
+    {
+      "id": 12,
+      "categoriesId":3,
+      "categories2": "medicamento",
+      "title": "Sabonete Ibasa Antipulgas Ibapet para Cães e Gatos - 80 g",
+      "description1": "Com ação anti pulgas, piolhos e carrapatos;",
+      "description2": "Piolhicida e antisséptico",
+      "description3": "Excelente fragrância;",
+      "price": 15,
+      "img": "https://www.petlove.com.br/images/products/177914/product/sabonete.jpg?1627585081"
+    },
+    {
+      "id": 13,
+      "categoriesId":3,
+      "categories2": "medicamento",
+      "title": "Vermífugo Univet Vetmax Plus Suspensão - 30 mL",
+      "description1": "Combate às infestações por nematódeos (vermes redondos) gastrintestinais ",
+      "description2": "Combate às infestações por cestódeos (vermes chatos) gastrintestinais.",
+      "description3": "*Consulte sempre o medico Veterinário de sua confiança para o uso apropriado deste medicamento. Leia a bula ou informações descritas na embalagem.",
+      "price": 55,
+      "img": "https://www.petlove.com.br/images/products/261387/product/Verm%C3%ADfugo_Univet_Vetmax_Plus_Suspens%C3%A3o_-_30_mL_311300_22.jpg?1661355571"
+    },
+    {
+      "id": 14,
+      "categoriesId":3,
+      "categories2": "medicamento",
+      "title": "Solução de Higiene Bucal Ibasa",
+      "description1": "Promove hálito fresco, dentes limpos sem escovar;",
+      "description2": "Sem aroma e sem odor, evitando a recusa do animal;",
+      "description3": "Neutraliza os compostos responsáveis pelo mau hálito.",
+      "price": 60,
+      "img": "https://www.petlove.com.br/images/products/190338/product/Solu%C3%A7%C3%A3o_de_Higiene_Bucal_Ibasa_-_200_mL_1589055.jpg?1627613971"
+    },
+    {
+      "id": 15,
+      "categoriesId":3,
+      "categories2": "medicamento",
+      "title": "Pomada Oftalmologica Keravit Vetnil - 5 g",
+      "description1": "A gentamicina é eficaz no combate a diversas bactérias;",
+      "description2": "Utilizadas em alergias;",
+      "description3": "Contém vitaminas;",
+      "price": 76,
+      "img": "https://www.petlove.com.br/images/products/256054/product/7898053583136_2.png?1653511632"
+    },
+    {
+      "id": 16,
+      "categoriesId":4,
+      "categories2": "brinquedo",
+      "title": "Brinquedo Interativo KONG Classic com Dispenser para Ração ou Petisco - Vermelho",
+      "description1": "Reconhecido como um dos brinquedos mais indicados por médicos veterinários e comportamentalistas.",
+      "description2": "Recomendado para cães adultos, idosos e filhotes.",
+      "description3": "Material com média/ alta durabilidade.",
+      "price": 40,
+      "img": "https://www.petlove.com.br/images/products/222338/product/Brinquedo_Interativo_KONG_Classic_com_Dispenser_para_Ra%C3%A7%C3%A3o_ou_Petisco_-_Vermelho_3105063_1.jpg?1627711549"
+    },
+    {
+      "id": 17,
+      "categoriesId":4,
+      "categories2": "brinquedo",
+      "title": "Clicker Chalesco para Adestramento de Cães",
+      "description1": "Adestre seu cachorro de forma fácil e prática",
+      "description2": "Produz som de estalo ao ser pressionado;",
+      "description3": "Desenvolvido para o treinamento.",
+      "price": 16,
+      "img": "https://www.petlove.com.br/images/products/167366/product/7898491031541.jpg?1627558907"
+    },
+    {
+      "id": 18,
+      "categoriesId":4,
+      "categories2": "brinquedo",
+      "title": "Brinquedo Furacão Pet Bola Maciça Adestramento Vermelho",
+      "description1": "Bola porta petiscos;",
+      "description2": "Diversão com interatividade;",
+      "description3": "Recomendada por adestradores.",
+      "price": 50,
+      "img": "https://www.petlove.com.br/images/products/146747/product/3100846-2.jpg?1627527099"
+    },
+    {
+      "id": 19,
+      "categoriesId":4,
+      "categories2": "brinquedo",
+      "title": "Mordedor Dipetti Donuts Skin Fish para Cães",
+      "description1": "Ideal para adestramento e também enriquecimento ambiental;",
+      "description2": "Produto inspecionado e registrado no Ministério da Agricultura SIF;",
+      "description3": "Livre de resíduos químicos;",
+      "price": 20,
+      "img": "https://www.petlove.com.br/images/products/250945/product/Padr%C3%A3o_%282%29_0001_7898966107276-_LP_img_skin.jpg?1636473978"
+    },
+    {
+      "id": 20,
+      "categoriesId":4,
+      "categories2": "brinquedo",
+      "title": "Brinquedo Amicus Twist N' Treat",
+      "description1": "Possui dispenser para Ração ou Petisco",
+      "description2": "Promove a interatividade com o seu Pet;",
+      "description3": "Espaço para diferentes tipos e tamanhos de ração ou petiscos.",
+      "price": 35,
+      "img": "https://www.petlove.com.br/images/products/171802/product/Brinquedo-Amicus-Twist-NTreat.jpg?1627566076"
+    }
+  ]
+}
