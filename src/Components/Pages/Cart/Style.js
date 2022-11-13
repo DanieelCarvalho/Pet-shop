@@ -70,7 +70,8 @@ export const BoxButton= styled.div`
     align-items: center;
     width: 15vw;
     @media screen and (max-width: 500px){
-   
+        width: 22vw;
+        justify-content: space-around;
     }
   
   
@@ -86,6 +87,15 @@ export const Button =styled.button`
     @media screen and (max-width: 500px){
        width: 5vw;
     }
+`
+
+export const Lixeira = styled.img`
+     width: 2vw;
+    cursor: pointer;
+    @media screen and (max-width: 500px){
+      width: 3vh;
+      
+}
 `
 
 export const BoxCard =styled.div`

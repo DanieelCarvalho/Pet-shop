@@ -1,4 +1,5 @@
 import { useContext, useEffect, useState } from "react"
+import dayjs from "dayjs" 
 import CartContext from "../../../Context"
 import { useNavigate } from "react-router-dom";
 import Seta from "../../../img/seta.png"
@@ -35,7 +36,7 @@ export default function Revision() {
                 <h2>Dados cadastrado</h2>
                <p><b>Nome:</b>  {dados.name}</p> 
                <p><b>Email:</b>{dados.email}</p> 
-               <p><b>Nascimento:</b> {dados.data}</p>
+               <p><b>Nascimento:</b> {dayjs(dados.data).format('DD/MM/YYYY')}</p>
                <p><b>Rua:</b> {dados.endereco.rua}</p> 
                <p><b>Bairro:</b>{dados.endereco.bairro}</p>
                <p><b>Cidade:</b> {dados.endereco.cidade}</p> 

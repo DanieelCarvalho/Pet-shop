@@ -5,13 +5,14 @@ import DadosContext from "../../../Context/Dados";
 import { useNavigate } from "react-router-dom";
 import * as S from "./Style";
 import Seta from "../../../img/seta.png"
+import Lixeira from "../../../img/lixeira.png"
 import Form from "../../Form";
 
 
 
 export default function Cart() {
     const { cart, setCart } = useContext(CartContext)
-    const{dados,setDados} = useContext(DadosContext)
+    const { dados, setDados } = useContext(DadosContext)
     const [quant, setQuant] = useState(null)
     const [total, setTotal] = useState(null)
     const navigate = useNavigate();
@@ -20,7 +21,7 @@ export default function Cart() {
     function handleBack() {
         navigate("/produtos");
     }
- 
+
     useEffect(() => {
         const total = cart.reduce((acc, curr) => {
             return (acc += curr.quantidade * curr.price)
@@ -39,6 +40,14 @@ export default function Cart() {
         })
 
     }
+
+    function Formu() {
+        if (cart.length > 0) return <Form />
+    }
+    const form = Formu()
+
+
+
     function subProduct(id) {
         cart.forEach((p) => {
             if (p.id === id) {
@@ -46,14 +55,23 @@ export default function Cart() {
                 setQuant(p.quantidade)
             }
         })
-    }
+        const product = cart.find(p => p.id === id)
+        const newCart = cart.filter(p => p.id !== id)
 
+        if (product.quantidade === 0) setCart(newCart)
+    }
+    
+    const limpar = (id) => {
+        setCart(cart.filter((item) => item.id !== id));
+      }
+      
+ 
     return (
         <S.Container>
             <S.BoxTitle>
                 <S.SetaImg src={Seta} alt="seta indicando retorno" onClick={handleBack} />
                 <S.Title>Meu Carrinho</S.Title>
-            </S.BoxTitle>
+            </S.BoxTitle> 
             <S.BoxCard>
                 {cart.map((p) => {
                     return (
@@ -68,6 +86,7 @@ export default function Cart() {
                                     <S.Button onClick={() => subProduct(p.id)} > - </S.Button>
                                     <p>{p.quantidade}</p>
                                     <S.Button onClick={() => addProduct(p.id)}> + </S.Button>
+                                    <S.Lixeira src={Lixeira} alt="imagem de uma lixeira" onClick={() => limpar(p.id)} />
                                 </S.BoxButton>
                             </div>
                         </S.Card>
@@ -77,12 +96,12 @@ export default function Cart() {
                     <h2>Total da compra: R$ {total} </h2>
                 </S.Total>
             </S.BoxCard>
-            <Form
-             />
+            {form}
+
 
         </S.Container>
     )
 
- 
+
 
 }

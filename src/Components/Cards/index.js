@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 export default function Cards({ title,description , description2, description3, quantidade, price, img, url,showButton,  addProduct, removeProduct }){
     console.log('qnt: ', quantidade)
     const buttons = !showButton ? null : (
-        <S.BoxButton >
+        <S.BoxButton > 
+            <p>Quantidade:</p>
             <S.Button onClick={() => removeProduct()}> - </S.Button>
+            
             <p>{quantidade}</p>
             <S.Button onClick={() => addProduct()}> + </S.Button>
         </S.BoxButton>

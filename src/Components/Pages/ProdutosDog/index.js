@@ -30,6 +30,7 @@ export default function ProdutosDog() {
     }
   });
 
+
   if (!item.length   ) return <img src={Loading} alt="loading" />
   return (
 
@@ -71,10 +72,10 @@ export default function ProdutosDog() {
               price={"R$" + item.price.toFixed(2)}
               img={item.img}
               url={url}
-
             />
           )
         })}
+
       </S.BoxProduct>
     </S.Container> 
  

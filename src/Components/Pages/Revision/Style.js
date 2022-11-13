@@ -17,7 +17,15 @@ export const Title = styled.h1`
 export const Dados= styled.div`
     margin-top: 2vh;
     width: 40vw;
-    height: 40vh;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+    @media screen and (max-width: 500px){
+        width: 100%;
+        margin-left: 2vw;
+        
+    }
 `
 
 export const Figure = styled.figure`

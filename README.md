@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+    Formação: React (Celcoin) Desafio Final
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    - Para rodar a página é preciso dar um npm rum json no terminal 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **🎯 Objetivo:** Desenvolver o front-end de um e-commerce (tema livre).
+- **✅ Requisitos:**
+    - O sistema precisa ser responsivo e desenvolvido em React.
+    - Dados como senhas, chaves de API, URLS de acesso e afins devem ser inseridos dentro de um arquivo `.env`.
+    - O sistema deve permitir que o usuário acumule os itens dentro de um carrinho de compras antes de fechar o seu pedido.
+        - Cada item deve ter uma página com detalhes sobre ele.
+        - Nesta página de detalhes, deve ser possível escolher a quantidade que o usuário deseja inserir no carrinho (ilimitado).
+    - O sistema deve conter pelo menos 20 itens divididos em pelo menos 3 categorias diferentes. Os produtos dentro das categorias devem ser possíveis de filtrar de alguma forma (dropdown, busca, etc).
+        - Use o [json-server](https://www.npmjs.com/package/json-server) para simular o back-end com os produtos.
+    - O sistema deve exigir o nome completo, e-mail, data de nascimento e endereço do usuário.
+        - O endereço deve usar a API do [ViaCep](https://viacep.com.br/) para ser preenchido por meio do CEP fornecido pelo usuário.
+    - O sistema deve possuir uma tela final de revisão do pedido onde devem conter:
+        - Os itens selecionados.
+        - O preço total.
+        - Os dados de endereço.
+        - **Não é necessário fazer a parte de pagamento. Ao fechar o pedido basta dizer na tela que o pedido foi confirmado.**

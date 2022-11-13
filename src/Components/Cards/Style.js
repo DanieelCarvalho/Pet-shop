@@ -93,6 +93,10 @@ export const BoxButton= styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 15vw;
+    @media screen and (max-width: 500px){
+        width: 100%;
+        height: 8vh;
+}
 `
 export const Button = styled.button`
     border-radius: 60%;
@@ -102,4 +106,7 @@ export const Button = styled.button`
     color: white;
     background-color: #f8a836;
     cursor: pointer;
+    @media screen and (max-width: 500px){
+        width: 4vw;
+}
 `

@@ -61,18 +61,12 @@ export const LabelData =styled.label`
     }
 `
 export const Subimit =styled.input`
-   color: black;
-    border:none;
-    width: 10vw;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    background-color: #f8a836;
-    color:#fff;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
+   padding:5px 15px; 
+    background:#f8a836;; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
     cursor: pointer;
     
 `  

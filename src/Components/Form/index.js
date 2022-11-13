@@ -67,7 +67,7 @@ export default function Form(rua, bairro, uf, cidade) {
 
                 <label for="cep" >
                     CEP: 
-                    <input  type="number" name="cep" placeholder="Digite seu CEP" onChange={(e) => {
+                    <input   type="text"   name="cep"    maxlength="8" placeholder="Digite seu CEP" onChange={(e) => {
                     getCep(e)
                 }}    />
                 </label>

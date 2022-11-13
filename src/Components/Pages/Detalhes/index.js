@@ -87,7 +87,7 @@ export default function Detalhes() {
         <S.SetaImg src={Seta} alt="seta indicando retorno" onClick={handleBack} />
       </S.Figure>
 
-      {recipesComponent}
+      {recipesComponent} 
 
     </S.Container>
   )
