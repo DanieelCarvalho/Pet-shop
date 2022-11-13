@@ -60,7 +60,7 @@ export default function Revision() {
                 })}
                 
                 <S.Total>
-                    <h2>Total da compra: R$ {total} </h2>
+                    <h2>Total da compra: R$ {total.toFixed(2).replace(".", ",")} </h2>
                 </S.Total>
             <S.Button onClick={(() =>{
                 alert("Compra Finalizada")
